@@ -1,0 +1,151 @@
+/* Base */
+.swiper-container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto; }
+
+.swiper-slide {
+  background-position: top center;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: calc(100vh - 100px);
+  width: 100%;
+  position: relative; }
+  .swiper-slide.cover {
+    background-size: cover; }
+
+.gallery-top {
+  height: 80%;
+  width: 100%; }
+
+.gallery-thumbs {
+  height: 20%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.gallery-thumbs .swiper-slide {
+  height: 60px;
+  -webkit-transition: .3s all ease;
+  -o-transition: .3s all ease;
+  transition: .3s all ease;
+  opacity: 0.8;
+  cursor: pointer;
+  position: relative; }
+  .gallery-thumbs .swiper-slide:before {
+    content: "";
+    border: 4px solid transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; }
+
+.gallery-thumbs .swiper-slide-thumb-active,
+.gallery-thumbs .swiper-slide:hover {
+  opacity: 1; }
+  .gallery-thumbs .swiper-slide-thumb-active:before,
+  .gallery-thumbs .swiper-slide:hover:before {
+    opacity: 1;
+    border: 2px solid #f60; }
+
+.swiper-container .swiper-button-next,
+.swiper-container .swiper-button-prev {
+  -webkit-transition: .3s all ease;
+  -o-transition: .3s all ease;
+  transition: .3s all ease;
+  opacity: 0;
+  visibility: hidden; }
+
+.swiper-container:hover .swiper-button-next,
+.swiper-container:hover .swiper-button-prev, .swiper-container:focus .swiper-button-next,
+.swiper-container:focus .swiper-button-prev {
+  opacity: 1;
+  visibility: visible; }
+
+.img-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  max-width: 400px;
+  background: #fff;
+  padding: 30px;
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+display:none;
+}
+  .img-info .scroll-content-wrapper {
+    height: 100px; }
+  .img-info .img-info-content {
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease; }
+    .img-info .img-info-content.active {
+      opacity: 1;
+      visibility: visible; }
+  .img-info h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    color: #000;
+    margin-bottom: 20px; }
+  .img-info .btn-toggle-expand {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    cursor: pointer; }
+    .img-info .btn-toggle-expand.active > span {
+      display: inline-block;
+      position: relative;
+      -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+      transform: rotate(180deg); }
+    .img-info .btn-toggle-expand span {
+      font-size: 18px; }
+  .img-info *:last-child {
+    margin-bottom: 0; }
+
+/* Use for Zoom Icon
+.zoom {
+position: absolute;
+width: 30px;
+height: 30px;
+color: #fff;
+bottom: 0;
+right: 5px;
+top: 5px;
+text-align: center;
+background: rgba(0,0,0,0.3);
+}
+
+*/
+
+/* Click anywhere to Zoom without icon */
+.zoom {
+position: absolute;
+width: 100%;
+height: 100%;
+color: #fff;
+bottom: 0;
+right: 0px;
+top: 0px;
+text-align: center;
+}
+
+.icon-search { display:none; }
+
+  .zoom:hover {
+    color: #FF8D27;
+}
+
+.style-scrollbar-sm {
+  height: 100px; }

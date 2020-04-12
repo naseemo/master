@@ -1,0 +1,121 @@
+[18-Mar-2020 11:19:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv() in phar:///opt/cpanel/composer/bin/composer/vendor/symfony/polyfill-mbstring/Mbstring.php:671
+Stack trace:
+#0 phar:///opt/cpanel/composer/bin/composer/vendor/symfony/polyfill-mbstring/bootstrap.php(48): Symfony\Polyfill\Mbstring\Mbstring::mb_strwidth('  [Composer\\Dow...', 'ASCII')
+#1 phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Helper/Helper.php(54): mb_strwidth('  [Composer\\Dow...', 'ASCII')
+#2 phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Application.php(646): Symfony\Component\Console\Helper\Helper::strlen('  [Composer\\Dow...')
+#3 phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Application.php(127): Symfony\Component\Console\Application->renderException(Object(Composer\Downloader\TransportException), Object(Symfony\Component\Console\Output\StreamOutput))
+#4 phar:///opt/cpanel/composer/bin/composer/src/Composer/Console/Application.php(104): Symfony\Component\Console\Applicatio in phar:///opt/cpanel/composer/bin/composer/vendor/symfony/polyfill-mbstring/Mbstring.php on line 671
+[18-Mar-2020 11:43:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv() in phar:///opt/cpanel/composer/bin/composer/vendor/symfony/polyfill-mbstring/Mbstring.php:671
+Stack trace:
+#0 phar:///opt/cpanel/composer/bin/composer/vendor/symfony/polyfill-mbstring/bootstrap.php(48): Symfony\Polyfill\Mbstring\Mbstring::mb_strwidth('  [Composer\\Dow...', 'ASCII')
+#1 phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Helper/Helper.php(54): mb_strwidth('  [Composer\\Dow...', 'ASCII')
+#2 phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Application.php(646): Symfony\Component\Console\Helper\Helper::strlen('  [Composer\\Dow...')
+#3 phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Application.php(127): Symfony\Component\Console\Application->renderException(Object(Composer\Downloader\TransportException), Object(Symfony\Component\Console\Output\StreamOutput))
+#4 phar:///opt/cpanel/composer/bin/composer/src/Composer/Console/Application.php(104): Symfony\Component\Console\Applicatio in phar:///opt/cpanel/composer/bin/composer/vendor/symfony/polyfill-mbstring/Mbstring.php on line 671
+[18-Mar-2020 12:28:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv() in phar:///opt/cpanel/composer/bin/composer/vendor/symfony/polyfill-mbstring/Mbstring.php:671
+Stack trace:
+#0 phar:///opt/cpanel/composer/bin/composer/vendor/symfony/polyfill-mbstring/bootstrap.php(48): Symfony\Polyfill\Mbstring\Mbstring::mb_strwidth('  [Composer\\Dow...', 'ASCII')
+#1 phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Helper/Helper.php(54): mb_strwidth('  [Composer\\Dow...', 'ASCII')
+#2 phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Application.php(646): Symfony\Component\Console\Helper\Helper::strlen('  [Composer\\Dow...')
+#3 phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Application.php(127): Symfony\Component\Console\Application->renderException(Object(Composer\Downloader\TransportException), Object(Symfony\Component\Console\Output\StreamOutput))
+#4 phar:///opt/cpanel/composer/bin/composer/src/Composer/Console/Application.php(104): Symfony\Component\Console\Applicatio in phar:///opt/cpanel/composer/bin/composer/vendor/symfony/polyfill-mbstring/Mbstring.php on line 671
+[18-Mar-2020 12:36:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv() in phar:///opt/cpanel/composer/bin/composer/vendor/symfony/polyfill-mbstring/Mbstring.php:671
+Stack trace:
+#0 phar:///opt/cpanel/composer/bin/composer/vendor/symfony/polyfill-mbstring/bootstrap.php(48): Symfony\Polyfill\Mbstring\Mbstring::mb_strwidth('  [Composer\\Dow...', 'ASCII')
+#1 phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Helper/Helper.php(54): mb_strwidth('  [Composer\\Dow...', 'ASCII')
+#2 phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Application.php(646): Symfony\Component\Console\Helper\Helper::strlen('  [Composer\\Dow...')
+#3 phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Application.php(127): Symfony\Component\Console\Application->renderException(Object(Composer\Downloader\TransportException), Object(Symfony\Component\Console\Output\StreamOutput))
+#4 phar:///opt/cpanel/composer/bin/composer/src/Composer/Console/Application.php(104): Symfony\Component\Console\Applicatio in phar:///opt/cpanel/composer/bin/composer/vendor/symfony/polyfill-mbstring/Mbstring.php on line 671
+[18-Mar-2020 12:37:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv() in phar:///opt/cpanel/composer/bin/composer/vendor/symfony/polyfill-mbstring/Mbstring.php:671
+Stack trace:
+#0 phar:///opt/cpanel/composer/bin/composer/vendor/symfony/polyfill-mbstring/bootstrap.php(48): Symfony\Polyfill\Mbstring\Mbstring::mb_strwidth('  [Composer\\Dow...', 'ASCII')
+#1 phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Helper/Helper.php(54): mb_strwidth('  [Composer\\Dow...', 'ASCII')
+#2 phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Application.php(646): Symfony\Component\Console\Helper\Helper::strlen('  [Composer\\Dow...')
+#3 phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Application.php(127): Symfony\Component\Console\Application->renderException(Object(Composer\Downloader\TransportException), Object(Symfony\Component\Console\Output\StreamOutput))
+#4 phar:///opt/cpanel/composer/bin/composer/src/Composer/Console/Application.php(104): Symfony\Component\Console\Applicatio in phar:///opt/cpanel/composer/bin/composer/vendor/symfony/polyfill-mbstring/Mbstring.php on line 671
+[18-Mar-2020 12:49:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv() in phar:///opt/cpanel/composer/bin/composer/vendor/symfony/polyfill-mbstring/Mbstring.php:671
+Stack trace:
+#0 phar:///opt/cpanel/composer/bin/composer/vendor/symfony/polyfill-mbstring/bootstrap.php(48): Symfony\Polyfill\Mbstring\Mbstring::mb_strwidth('  [Composer\\Dow...', 'ASCII')
+#1 phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Helper/Helper.php(54): mb_strwidth('  [Composer\\Dow...', 'ASCII')
+#2 phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Application.php(646): Symfony\Component\Console\Helper\Helper::strlen('  [Composer\\Dow...')
+#3 phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Application.php(127): Symfony\Component\Console\Application->renderException(Object(Composer\Downloader\TransportException), Object(Symfony\Component\Console\Output\StreamOutput))
+#4 phar:///opt/cpanel/composer/bin/composer/src/Composer/Console/Application.php(104): Symfony\Component\Console\Applicatio in phar:///opt/cpanel/composer/bin/composer/vendor/symfony/polyfill-mbstring/Mbstring.php on line 671
+[18-Mar-2020 12:54:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv() in phar:///opt/cpanel/composer/bin/composer/vendor/symfony/polyfill-mbstring/Mbstring.php:671
+Stack trace:
+#0 phar:///opt/cpanel/composer/bin/composer/vendor/symfony/polyfill-mbstring/bootstrap.php(48): Symfony\Polyfill\Mbstring\Mbstring::mb_strwidth('  [Composer\\Dow...', 'ASCII')
+#1 phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Helper/Helper.php(54): mb_strwidth('  [Composer\\Dow...', 'ASCII')
+#2 phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Application.php(646): Symfony\Component\Console\Helper\Helper::strlen('  [Composer\\Dow...')
+#3 phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Application.php(127): Symfony\Component\Console\Application->renderException(Object(Composer\Downloader\TransportException), Object(Symfony\Component\Console\Output\StreamOutput))
+#4 phar:///opt/cpanel/composer/bin/composer/src/Composer/Console/Application.php(104): Symfony\Component\Console\Applicatio in phar:///opt/cpanel/composer/bin/composer/vendor/symfony/polyfill-mbstring/Mbstring.php on line 671
+[18-Mar-2020 12:57:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv() in phar:///opt/cpanel/composer/bin/composer/vendor/symfony/polyfill-mbstring/Mbstring.php:671
+Stack trace:
+#0 phar:///opt/cpanel/composer/bin/composer/vendor/symfony/polyfill-mbstring/bootstrap.php(48): Symfony\Polyfill\Mbstring\Mbstring::mb_strwidth('  [Composer\\Dow...', 'ASCII')
+#1 phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Helper/Helper.php(54): mb_strwidth('  [Composer\\Dow...', 'ASCII')
+#2 phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Application.php(646): Symfony\Component\Console\Helper\Helper::strlen('  [Composer\\Dow...')
+#3 phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Application.php(127): Symfony\Component\Console\Application->renderException(Object(Composer\Downloader\TransportException), Object(Symfony\Component\Console\Output\StreamOutput))
+#4 phar:///opt/cpanel/composer/bin/composer/src/Composer/Console/Application.php(104): Symfony\Component\Console\Applicatio in phar:///opt/cpanel/composer/bin/composer/vendor/symfony/polyfill-mbstring/Mbstring.php on line 671
+[18-Mar-2020 13:01:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv() in phar:///opt/cpanel/composer/bin/composer/vendor/symfony/polyfill-mbstring/Mbstring.php:671
+Stack trace:
+#0 phar:///opt/cpanel/composer/bin/composer/vendor/symfony/polyfill-mbstring/bootstrap.php(48): Symfony\Polyfill\Mbstring\Mbstring::mb_strwidth('  [Composer\\Dow...', 'ASCII')
+#1 phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Helper/Helper.php(54): mb_strwidth('  [Composer\\Dow...', 'ASCII')
+#2 phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Application.php(646): Symfony\Component\Console\Helper\Helper::strlen('  [Composer\\Dow...')
+#3 phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Application.php(127): Symfony\Component\Console\Application->renderException(Object(Composer\Downloader\TransportException), Object(Symfony\Component\Console\Output\StreamOutput))
+#4 phar:///opt/cpanel/composer/bin/composer/src/Composer/Console/Application.php(104): Symfony\Component\Console\Applicatio in phar:///opt/cpanel/composer/bin/composer/vendor/symfony/polyfill-mbstring/Mbstring.php on line 671
+[18-Mar-2020 13:46:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv() in phar:///opt/cpanel/composer/bin/composer/vendor/symfony/polyfill-mbstring/Mbstring.php:671
+Stack trace:
+#0 phar:///opt/cpanel/composer/bin/composer/vendor/symfony/polyfill-mbstring/bootstrap.php(48): Symfony\Polyfill\Mbstring\Mbstring::mb_strwidth('  [InvalidArgum...', 'ASCII')
+#1 phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Helper/Helper.php(54): mb_strwidth('  [InvalidArgum...', 'ASCII')
+#2 phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Application.php(646): Symfony\Component\Console\Helper\Helper::strlen('  [InvalidArgum...')
+#3 phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Application.php(127): Symfony\Component\Console\Application->renderException(Object(InvalidArgumentException), Object(Symfony\Component\Console\Output\StreamOutput))
+#4 phar:///opt/cpanel/composer/bin/composer/src/Composer/Console/Application.php(104): Symfony\Component\Console\Application->run(Object(Sym in phar:///opt/cpanel/composer/bin/composer/vendor/symfony/polyfill-mbstring/Mbstring.php on line 671
+[18-Mar-2020 13:52:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv() in phar:///opt/cpanel/composer/bin/composer/vendor/symfony/polyfill-mbstring/Mbstring.php:671
+Stack trace:
+#0 phar:///opt/cpanel/composer/bin/composer/vendor/symfony/polyfill-mbstring/bootstrap.php(48): Symfony\Polyfill\Mbstring\Mbstring::mb_strwidth('  [InvalidArgum...', 'ASCII')
+#1 phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Helper/Helper.php(54): mb_strwidth('  [InvalidArgum...', 'ASCII')
+#2 phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Application.php(646): Symfony\Component\Console\Helper\Helper::strlen('  [InvalidArgum...')
+#3 phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Application.php(127): Symfony\Component\Console\Application->renderException(Object(InvalidArgumentException), Object(Symfony\Component\Console\Output\StreamOutput))
+#4 phar:///opt/cpanel/composer/bin/composer/src/Composer/Console/Application.php(104): Symfony\Component\Console\Application->run(Object(Sym in phar:///opt/cpanel/composer/bin/composer/vendor/symfony/polyfill-mbstring/Mbstring.php on line 671
+[19-Mar-2020 04:19:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv() in phar:///opt/cpanel/composer/bin/composer/vendor/symfony/polyfill-mbstring/Mbstring.php:671
+Stack trace:
+#0 phar:///opt/cpanel/composer/bin/composer/vendor/symfony/polyfill-mbstring/bootstrap.php(48): Symfony\Polyfill\Mbstring\Mbstring::mb_strwidth('  [InvalidArgum...', 'ASCII')
+#1 phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Helper/Helper.php(54): mb_strwidth('  [InvalidArgum...', 'ASCII')
+#2 phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Application.php(646): Symfony\Component\Console\Helper\Helper::strlen('  [InvalidArgum...')
+#3 phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Application.php(127): Symfony\Component\Console\Application->renderException(Object(InvalidArgumentException), Object(Symfony\Component\Console\Output\StreamOutput))
+#4 phar:///opt/cpanel/composer/bin/composer/src/Composer/Console/Application.php(104): Symfony\Component\Console\Application->run(Object(Sym in phar:///opt/cpanel/composer/bin/composer/vendor/symfony/polyfill-mbstring/Mbstring.php on line 671
+[19-Mar-2020 04:26:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv() in phar:///opt/cpanel/composer/bin/composer/vendor/symfony/polyfill-mbstring/Mbstring.php:671
+Stack trace:
+#0 phar:///opt/cpanel/composer/bin/composer/vendor/symfony/polyfill-mbstring/bootstrap.php(48): Symfony\Polyfill\Mbstring\Mbstring::mb_strwidth('  [InvalidArgum...', 'ASCII')
+#1 phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Helper/Helper.php(54): mb_strwidth('  [InvalidArgum...', 'ASCII')
+#2 phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Application.php(646): Symfony\Component\Console\Helper\Helper::strlen('  [InvalidArgum...')
+#3 phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Application.php(127): Symfony\Component\Console\Application->renderException(Object(InvalidArgumentException), Object(Symfony\Component\Console\Output\StreamOutput))
+#4 phar:///opt/cpanel/composer/bin/composer/src/Composer/Console/Application.php(104): Symfony\Component\Console\Application->run(Object(Sym in phar:///opt/cpanel/composer/bin/composer/vendor/symfony/polyfill-mbstring/Mbstring.php on line 671
+[19-Mar-2020 04:27:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv() in phar:///opt/cpanel/composer/bin/composer/vendor/symfony/polyfill-mbstring/Mbstring.php:671
+Stack trace:
+#0 phar:///opt/cpanel/composer/bin/composer/vendor/symfony/polyfill-mbstring/bootstrap.php(48): Symfony\Polyfill\Mbstring\Mbstring::mb_strwidth('  [InvalidArgum...', 'ASCII')
+#1 phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Helper/Helper.php(54): mb_strwidth('  [InvalidArgum...', 'ASCII')
+#2 phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Application.php(646): Symfony\Component\Console\Helper\Helper::strlen('  [InvalidArgum...')
+#3 phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Application.php(127): Symfony\Component\Console\Application->renderException(Object(InvalidArgumentException), Object(Symfony\Component\Console\Output\StreamOutput))
+#4 phar:///opt/cpanel/composer/bin/composer/src/Composer/Console/Application.php(104): Symfony\Component\Console\Application->run(Object(Sym in phar:///opt/cpanel/composer/bin/composer/vendor/symfony/polyfill-mbstring/Mbstring.php on line 671
+[21-Mar-2020 06:46:30 UTC] PHP Fatal error:  Can't use function return value in write context in /home/naseemo/public_html/app/Http/Controllers/registrationController.php on line 27
+[21-Mar-2020 06:46:39 UTC] PHP Fatal error:  Can't use function return value in write context in /home/naseemo/public_html/app/Http/Controllers/registrationController.php on line 27
+[21-Mar-2020 06:46:45 UTC] PHP Fatal error:  Can't use function return value in write context in /home/naseemo/public_html/app/Http/Controllers/registrationController.php on line 27
+[21-Mar-2020 06:46:55 UTC] PHP Fatal error:  Can't use function return value in write context in /home/naseemo/public_html/app/Http/Controllers/registrationController.php on line 27
+[21-Mar-2020 06:47:42 UTC] PHP Fatal error:  Can't use function return value in write context in /home/naseemo/public_html/app/Http/Controllers/registrationController.php on line 27
+[21-Mar-2020 06:48:05 UTC] PHP Fatal error:  Can't use function return value in write context in /home/naseemo/public_html/app/Http/Controllers/registrationController.php on line 27
+[21-Mar-2020 06:48:59 UTC] PHP Fatal error:  Can't use function return value in write context in /home/naseemo/public_html/app/Http/Controllers/registrationController.php on line 27
+[21-Mar-2020 07:02:15 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 20975616 bytes) in /home/naseemo/public_html/app/Http/Controllers/registrationController.php on line 27
+[21-Mar-2020 07:02:38 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 20975616 bytes) in /home/naseemo/public_html/app/Http/Controllers/registrationController.php on line 27
+[28-Mar-2020 04:40:50 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\adsController::check() in /home/naseemo/public_html/app/Http/Controllers/adsController.php on line 1799
+[28-Mar-2020 04:41:25 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\adsController::check() in /home/naseemo/public_html/app/Http/Controllers/adsController.php on line 1799
+[28-Mar-2020 05:59:56 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 20975616 bytes) in /home/naseemo/public_html/app/Http/Controllers/adsController.php on line 1805
+[28-Mar-2020 06:00:20 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 20975616 bytes) in /home/naseemo/public_html/app/Http/Controllers/adsController.php on line 1805
+[28-Mar-2020 07:43:29 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 20975616 bytes) in /home/naseemo/public_html/app/Http/Controllers/adsController.php on line 1810
+[28-Mar-2020 10:20:10 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 20975616 bytes) in /home/naseemo/public_html/app/Http/Controllers/adsController.php on line 1809
+[28-Mar-2020 10:22:40 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 20975616 bytes) in /home/naseemo/public_html/app/Http/Controllers/adsController.php on line 1809
+[31-Mar-2020 12:56:27 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/naseemo/public_html/app/Http/Controllers/adsController.php on line 1102
+[31-Mar-2020 12:56:52 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/naseemo/public_html/app/Http/Controllers/adsController.php on line 1102
+[31-Mar-2020 13:32:57 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/naseemo/public_html/app/Http/Controllers/adsController.php on line 1187
+[02-Apr-2020 05:13:28 UTC] PHP Parse error:  syntax error, unexpected 'require' (T_REQUIRE) in /home/naseemo/public_html/app/Console/Kernel.php on line 41
+[02-Apr-2020 05:14:03 UTC] PHP Parse error:  syntax error, unexpected 'require' (T_REQUIRE) in /home/naseemo/public_html/app/Console/Kernel.php on line 41
+[02-Apr-2020 05:16:14 UTC] PHP Parse error:  syntax error, unexpected 'require' (T_REQUIRE) in /home/naseemo/public_html/app/Console/Kernel.php on line 41
+[04-Apr-2020 04:43:41 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\homeController::getCategoryArr() in /home/naseemo/public_html/app/Http/Controllers/homeController.php on line 1495

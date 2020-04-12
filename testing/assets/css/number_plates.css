@@ -1,0 +1,349 @@
+/* Number Plate Styles */
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+.adb_code_style {
+display: block;
+color: #fff;
+font-size: 30px;
+font-weight: bold;
+text-align: center;
+}
+.adb_number_style {
+display: block;
+color: #444;
+font-size: 40px;
+font-weight: bold;
+text-align: center;
+font-family: 'Oswald', sans-serif;
+}
+
+.adb_new_code_style {
+display: block;
+color: #444;
+font-size: 30px;
+font-weight: bold;
+text-align: left;
+left: 20px;
+position: relative;
+top: 5px;
+}
+.adb_new_number_style {
+display: block;
+color: #444;
+font-size: 40px;
+font-weight: bold;
+text-align: center;
+font-family: 'Oswald', sans-serif;
+}
+
+.adb_bike_code_style {
+display: block;
+color: #444;
+font-size: 0px;
+text-align: left;
+}
+.adb_bike_number_style {
+display: block;
+color: #444;
+font-size: 40px;
+font-weight: bold;
+text-align: right;
+position: relative;
+top: 46px;
+right: 20px;
+font-family: 'Oswald', sans-serif;
+}
+
+.dxb_code_style {
+display: inline-block;
+color: #444;
+font-size: 40px;
+font-weight: bold;
+text-align: center;
+padding-left: 20px;
+padding-right: 30px;
+}
+.dxb_number_style {
+display: inline-block;
+color: #444;
+font-size: 40px;
+font-weight: bold;
+text-align: right;
+font-family: 'Oswald', sans-serif;
+}
+
+.dxb_new_code_style {
+display: inline-block;
+color: #444;
+font-size: 40px;
+font-weight: bold;
+text-align: center;
+padding-left: 20px;
+padding-right: 30px;
+}
+.dxb_new_number_style {
+display: inline-block;
+color: #444;
+font-size: 40px;
+font-weight: bold;
+text-align: right;
+font-family: 'Oswald', sans-serif;
+}
+
+.dxb_class_code_style {
+display: none;
+color: #444;
+font-size: 0px;
+font-weight: bold;
+text-align: center;
+line-height: normal;
+padding-top: 5px;
+}
+.dxb_class_number_style {
+display: block;
+color: #FFF;
+font-size: 40px;
+font-weight: bold;
+text-align: center;
+line-height: normal;	
+position: relative;
+top: 50px;
+font-family: 'Oswald', sans-serif;
+}
+
+.dxb_bike_code_style {
+display: block;
+color: #444;
+font-size: 40px;
+font-weight: bold;
+text-align: left;
+padding-left: 20px;
+line-height: normal;
+padding-top: 5px;
+}
+.dxb_bike_number_style {
+display: block;
+color: #444;
+font-size: 40px;
+font-weight: bold;
+text-align: right;
+padding-right: 20px;
+font-family: 'Oswald', sans-serif;
+}
+
+.sha_code_style {
+display: block;
+color: #444;
+font-size: 30px;
+font-weight: bold;
+text-align: center;
+line-height: normal;
+padding-top: 5px;
+}
+.sha_number_style {
+display: block;
+color: #444;
+font-size: 40px;
+font-weight: bold;
+text-align: center;
+line-height: normal;
+font-family: 'Oswald', sans-serif;
+}
+
+.sha_bike_code_style {
+display: block;
+color: #444;
+font-size: 0px;
+text-align: left;
+}
+.sha_bike_number_style {
+display: block;
+color: #444;
+font-size: 40px;
+font-weight: bold;
+text-align: right;
+position: relative;
+top: 46px;
+right: 20px;
+font-family: 'Oswald', sans-serif;
+}
+
+.ajm_code_style {
+display: block;
+color: #444;
+font-size: 30px;
+font-weight: bold;
+text-align: center;
+line-height: normal;
+padding-top: 5px;
+position: relative;
+top: 60px;
+margin-right: 10px;
+}
+.ajm_number_style {
+display: block;
+display: block;
+color: #444;
+font-size: 40px;
+font-weight: bold;
+text-align: center;
+line-height: normal;
+position: relative;
+top: -30px;
+font-family: 'Oswald', sans-serif;
+}
+
+.ajm_new_code_style {
+display: inline-block;
+color: #444;
+font-size: 40px;
+font-weight: bold;
+text-align: center;
+padding-left: 20px;
+padding-right: 30px;
+}
+.ajm_new_number_style {
+display: inline-block;
+color: #444;
+font-size: 40px;
+font-weight: bold;
+text-align: right;
+font-family: 'Oswald', sans-serif;
+}
+
+.ajm_bike_code_style {
+display: block;
+color: #444;
+font-size: 0px;
+text-align: left;
+}
+.ajm_bike_number_style {
+display: block;
+color: #444;
+font-size: 40px;
+font-weight: bold;
+text-align: right;
+position: relative;
+top: 46px;
+right: 20px;
+font-family: 'Oswald', sans-serif;
+}
+
+.fuj_code_style {
+display: block;
+color: #444;
+font-size: 30px;
+font-weight: bold;
+text-align: center;
+line-height: normal;
+padding-top: 5px;
+position: relative;
+top: 60px;
+margin-right: 10px;
+}
+.fuj_number_style {
+display: block;
+display: block;
+color: #444;
+font-size: 40px;
+font-weight: bold;
+text-align: center;
+line-height: normal;
+position: relative;
+top: -30px;
+font-family: 'Oswald', sans-serif;
+}
+
+.fuj_bike_code_style {
+display: block;
+color: #444;
+font-size: 0px;
+text-align: left;
+}
+.fuj_bike_number_style {
+display: block;
+color: #444;
+font-size: 40px;
+font-weight: bold;
+text-align: right;
+position: relative;
+top: 46px;
+right: 20px;
+font-family: 'Oswald', sans-serif;
+}
+
+.rak_code_style {
+display: block;
+color: #444;
+font-size: 0px;
+font-weight: bold;
+text-align: center;
+line-height: normal;
+padding-top: 5px;
+}
+.rak_number_style {
+display: block;
+color: #444;
+font-size: 40px;
+font-weight: bold;
+text-align: center;
+line-height: normal;
+position: relative;
+top: 45px;
+font-family: 'Oswald', sans-serif;
+}
+
+.rak_bike_code_style {
+display: block;
+color: #444;
+font-size: 0px;
+text-align: left;
+}
+.rak_bike_number_style {
+display: block;
+color: #444;
+font-size: 40px;
+font-weight: bold;
+text-align: right;
+position: relative;
+top: 46px;
+right: 20px;
+font-family: 'Oswald', sans-serif;
+}
+
+.umq_code_style {
+display: inline-block;
+color: #444;
+font-size: 40px;
+font-weight: bold;
+text-align: center;
+padding-left: 20px;
+padding-right: 30px;
+}
+.umq_number_style {
+display: inline-block;
+color: #444;
+font-size: 40px;
+font-weight: bold;
+text-align: right;
+font-family: 'Oswald', sans-serif;
+}
+
+.umq_bike_code_style {
+display: block;
+color: #444;
+font-size: 0px;
+text-align: left;
+}
+.umq_bike_number_style {
+display: block;
+color: #444;
+font-size: 40px;
+font-weight: bold;
+text-align: right;
+position: relative;
+top: 46px;
+right: 20px;
+font-family: 'Oswald', sans-serif;
+}
+/* Number Plate Styles */

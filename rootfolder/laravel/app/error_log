@@ -1,0 +1,1 @@
+[05-Dec-2019 05:03:13 UTC] PHP Fatal error:  Class 'Illuminate\Database\Eloquent\Model' not found in /home/naseemo/public_html/laravel/app/Ads.php on line 7

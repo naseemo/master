@@ -1,0 +1,15 @@
+#Options +SymLinksIfOwnerMatch
+#RewriteEngine On
+
+#RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+#RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
+
+#RewriteCond %{HTTPS} !on
+#RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} !^www.naseemo.com
+RewriteCond %{HTTP_HOST} ^([^.]+).naseemo.com
+RewriteRule ^$ ?domain=%1 [L] 
+
+RewriteRule ^ index.php [L]
