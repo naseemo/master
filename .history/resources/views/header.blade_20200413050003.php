@@ -8,7 +8,6 @@ $cityName=Session::get('cityName');
 <?php $countofMessage = messagesController::getMessageCount($id);?>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <meta name="google-site-verification" content="NRtZphV-8rH1szfEIQWdute-_Wnc17HcOZtRMP5Cgks" />
-
 			<div id="header" class="clearfix"> <!-- sticky -->
 
 				<!-- TOP NAV -->

@@ -1,0 +1,33 @@
+<?php
+
+return [
+
+  /*
+    |--------------------------------------------------------------------------
+    | Pagination Language Lines
+    |--------------------------------------------------------------------------
+    |
+    | The following language lines are used by the paginator library to build
+    | the simple pagination links. You are free to change them to anything
+    | you want to customize your views to better match your application.
+    |
+    */
+
+
+    'home' => [
+      'English'    => 'English',
+      'Arabic'     => 'Arabic',
+      'Home'       => 'Home',
+      'Language'   => 'Language',
+      'Memberships'=>'Memberships',
+      'Login'      =>'Login',
+      'what'       =>'What are you looking for ?',
+      'plaseholdaer_search'=>'Search in '
+
+    ]
+
+
+
+
+
+];

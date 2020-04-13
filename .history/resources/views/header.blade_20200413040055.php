@@ -6,9 +6,7 @@ $cityName=Session::get('cityName');
 ?>
 
 <?php $countofMessage = messagesController::getMessageCount($id);?>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <meta name="google-site-verification" content="NRtZphV-8rH1szfEIQWdute-_Wnc17HcOZtRMP5Cgks" />
-
 			<div id="header" class="clearfix"> <!-- sticky -->
 
 				<!-- TOP NAV -->
@@ -48,22 +46,19 @@ $cityName=Session::get('cityName');
 						@endforeach
 						</ul>
 						</div>
-							{{-- edit for lang --}}
-							<div class="btn-group">
-								<button type="button" class="btn btn-primary btn-sm dropdown-toggle" data-toggle="dropdown"><i class="fa fa-language"></i>@lang('home.home.Language')</button>
-								<ul class="dropdown-menu" role="menu">
-									@if(app()->isLocale('ar'))						
-								<li><a href="{{route('lang','en')}}"><i class="fa fa-language"></i>@lang('home.home.English')</a></li>
-								@else
-								<li><a href="{{route('lang','ar')}}"><i class="fa fa-language"></i>@lang('home.home.Arabic')</a></li>
-								@endif 
-								
-								</ul>
-								</div>
-								</div>
-								{{-- end edit lang --}}
 						</div>
-					
+						{{-- edit for lang --}}
+						<div class="btn-group">
+							<button type="button" class="btn btn-primary btn-sm dropdown-toggle" data-toggle="dropdown"><i class="fa fa-map-marker"></i> <span class="caret"></span></button>
+							<ul class="dropdown-menu" role="menu">						<li><a href=""><i class="fa fa-map-marker"></i>englesh</a></li>
+							
+							<li><a href=""> arabic<i class="fa fa-map-marker"></i></a></li>
+							
+							
+							</ul>
+							</div>
+							</div>
+							{{-- end edit lang --}}
 						
 						</div>
 						<div class="navbar-collapse pull-right nav-main-collapse collapse submenu-dark">
@@ -78,14 +73,14 @@ $cityName=Session::get('cityName');
 								-->
 								<ul id="topMain" class="nav nav-pills nav-main">
 									<li class="active"><!-- HOME -->
-										<a href="{{URL::to('/')}}"><i class="fa fa-home fa-lg block size-25"></i> @lang('home.home.Home') </a>
+										<a href="{{URL::to('/')}}"><i class="fa fa-home fa-lg block size-25"></i> Home </a>
 									</li>
 									<!--<li> 
 										<a href="{{ URL::to('luckydraw') }}"><i class="fa fa-trophy"></i> Lucky Draw <span class="badge btn-xs winnericon">New</span></a>
 									</li>-->
 									@if(!Session::get('logedstatus')==1)
 									<li>
-										<a href="{{ URL::to('membership') }}"><i class="fa fa-users block size-25"></i> @lang('home.home.Memberships')</a>
+										<a href="{{ URL::to('membership') }}"><i class="fa fa-users block size-25"></i> Memberships</a>
 									</li>	
 									@endif
 									<!--<li>
@@ -97,7 +92,7 @@ $cityName=Session::get('cityName');
 										@if(!Session::get('logedstatus')==1)
 											
 											<!--<span class="badge btn-xs badge-corner">1</span>-->
-											<i class="fa fa-sign-in block size-25"></i> @lang('home.home.Login')
+											<i class="fa fa-sign-in block size-25"></i> Login
 											</a>
 										@endif
 										@if(Session::get('logedstatus')==1)

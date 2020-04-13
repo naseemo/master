@@ -245,10 +245,3 @@ Route::post('/ajax',"testController@testAjaxPost");
 Route::post('/photosave',"testController@savePhoto");
 
 Route::get('/{url}',"pagesController@index");
-
-
-#lang multi lang
-Route::get('changelang/{lang}', function ($lang){
-  Session::put('lang', $lang);
-  return redirect()->back();
-})->name('lang');

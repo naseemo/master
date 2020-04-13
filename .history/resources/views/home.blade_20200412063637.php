@@ -4,7 +4,7 @@ use \App\Http\Controllers\adsController;
 
 ?>
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html lang="en">
 	<head>
 		<meta charset="utf-8" />
 		<title>Buy, Sell, Services & Products Online Classifieds - Naseemo.com</title>
@@ -73,7 +73,7 @@ use \App\Http\Controllers\adsController;
 					<div class="col-md-8 searchtrans">
 					<div class="row padding-top-10">
 						<div class="col-md-12 text-center searchtop">
-							<h3 class="text-white margin-bottom-10">@lang('home.home.what')</h3>
+							<h3 class="text-white margin-bottom-10">What are you looking for ?</h3>
 						</div>
 					</div>
 					<div class="row margin-bottom-30">
@@ -83,7 +83,7 @@ use \App\Http\Controllers\adsController;
 									<div class="col-md-1"><i class="fa fa-search size-30 text-white"></i></div>
 									<div class="col-md-9 nopadding">
 									<div class="col-md-12 nopadding">
-									<input type="text" class="form-control" name="search_value" id="search_value" placeholder=" @lang('home.home.plaseholdaer_search') <?php  echo ucwords(strtolower($cityName)); ?> " autocomplete="off" style="border-radius: 50px 0px 0px 50px;" />
+									<input type="text" class="form-control" name="search_value" id="search_value" placeholder="Search in <?php echo ucwords(strtolower($cityName)); ?> " autocomplete="off" style="border-radius: 50px 0px 0px 50px;" />
 									</div>
 									</div>
 									<div class="col-md-2 padding-left-0">
